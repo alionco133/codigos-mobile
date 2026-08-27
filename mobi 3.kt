@@ -32,11 +32,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         val resposta = TextView(this).apply {
-            texSize = 18f
+            textSize = 18f
         }
 
-        botao.set0nClickListener {
-            resposta.text = "Olá, $(nome.text.toString().trim())!"
+        botao.setOnClickListener {
+            resposta.text = "Olá, ${nome.text.toString().trim()}!"
         }
 
         layout.addView(titulo)
