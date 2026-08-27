@@ -2,7 +2,7 @@ package com.example.meuapp
 
 import android.os.Bundle
 import android.widget.TextView
-import android.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
         texto.textSize = 22f
         texto.setPadding(32, 32, 32, 32)
 
-        setContenView(texto)
+        setContentView(texto)
     }
 }
