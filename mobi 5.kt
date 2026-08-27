@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val layout = LinearLayout(this).apply {
-            orientation = LinearLayout.VERTTICALA
+            orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER_HORIZONTAL
             setPadding(32, 48, 32, 32)
         }
